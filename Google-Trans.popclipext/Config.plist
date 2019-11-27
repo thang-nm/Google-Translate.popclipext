@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>show-result</string>
+			<key>Image File</key>
+			<string>google-trans.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/php</string>
+			<key>Shell Script File</key>
+			<string>google-trans.php</string>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Google Trans</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Google Translate</string>
+	<key>Extension Identifier</key>
+	<string>com.thangnm.google.trans</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Google Trans</string>
+	</dict>
+</dict>
+</plist>
