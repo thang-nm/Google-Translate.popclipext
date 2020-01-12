@@ -14,9 +14,14 @@ function option($key, $deault = '') {
 }
 
 function normalize($q) {
-  return method_exists('Normalizer', 'normalize')
-    ? Normalizer::normalize($q)
-    : $q;
+  if (method_exists('Normalizer', 'normalize')) {
+    return Normalizer::normalize($q);
+  }
+
+  $q = str_replace('"', '\\"', $q);
+  $command = sprintf('perl -MUnicode::Normalize -Mutf8 -CS -e \'binmode(STDOUT, ":utf8"); print NFC("%s")\'', $q);
+  $result = shell_exec($command);
+  return $result ? $result : $q;
 }
 
 function googleTrans($q, $tl) {
