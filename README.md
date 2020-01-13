@@ -1,8 +1,8 @@
-![](icon.png)
+![](/Google-Translate.popclipext/google-translate.png)
 
-# Google-Trans.popclipext
-Instant translate extension for PopClip app.
+# Google-Translate.popclipext
+Instant Google Translate extension for PopClip app.
 
 ## 🛠 Installation
-- Download this repo and open **Google-Trans.popclipext**
+- Download this repo and open **Google-Translate.popclipext**
 - Enjoy it!

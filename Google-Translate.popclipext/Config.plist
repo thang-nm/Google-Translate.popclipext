@@ -8,15 +8,15 @@
 			<key>After</key>
 			<string>show-result</string>
 			<key>Image File</key>
-			<string>google-trans.png</string>
+			<string>google-translate.png</string>
 			<key>Script Interpreter</key>
 			<string>/usr/bin/php</string>
 			<key>Shell Script File</key>
-			<string>google-trans.php</string>
+			<string>google-translate.php</string>
 			<key>Title</key>
 			<dict>
 				<key>en</key>
-				<string>Google Trans</string>
+				<string>Google Translate</string>
 			</dict>
 		</dict>
 	</array>
