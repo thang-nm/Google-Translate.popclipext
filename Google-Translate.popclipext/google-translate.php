@@ -48,11 +48,20 @@ function googleTrans($q, $tl) {
     die('');
   }
 
-  $json = @json_decode($response, true);
-  return isset($json[0][0][0]) ? $json[0][0][0] : '';
+  return @json_decode($response, true);
 }
 
 if ($input = getenv('POPCLIP_TEXT')) {
-  echo googleTrans($input, option('POPCLIP_OPTION_TL', 'en'));
+  $json = googleTrans($input, option('POPCLIP_OPTION_TL', 'en'));
+  if (!isset($json[0])) {
+    die('');
+  }
+  
+  echo array_reduce($json[0], function($carry, $item) {
+    if (isset($item[0])) {
+      $carry .= $item[0];
+      return $carry;
+    }
+  }, '');
 }
 ?>
