@@ -52,7 +52,9 @@ function googleTrans($q, $tl) {
 }
 
 if ($input = getenv('POPCLIP_TEXT')) {
-  $json = googleTrans($input, option('POPCLIP_OPTION_TL', 'en'));
+  $modifier = getenv('POPCLIP_MODIFIER_FLAGS');
+  $tlKey = (int)$modifier === 1048576 ? 'POPCLIP_OPTION_TLC' : 'POPCLIP_OPTION_TL';
+  $json = googleTrans($input, option($tlKey, 'en'));
   if (!isset($json[0])) {
     die('');
   }

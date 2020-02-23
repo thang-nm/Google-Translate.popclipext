@@ -28,7 +28,125 @@
 			<key>Option Label</key>
 			<dict>
 				<key>en</key>
-				<string>Translate To</string>
+				<string>Click to translate to:</string>
+			</dict>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Values</key>
+			<array>
+				<string>Afrikaans (af)</string>
+				<string>Albanian (sq)</string>
+				<string>Amharic (am)</string>
+				<string>Arabic (ar)</string>
+				<string>Armenian (hy)</string>
+				<string>Azerbaijani (az)</string>
+				<string>Basque (eu)</string>
+				<string>Belarusian (be)</string>
+				<string>Bengali (bn)</string>
+				<string>Bosnian (bs)</string>
+				<string>Bulgarian (bg)</string>
+				<string>Catalan (ca)</string>
+				<string>Cebuano (ceb)</string>
+				<string>Chinese - Simplified (zh-CN)</string>
+				<string>Chinese - Traditional (zh-TW)</string>
+				<string>Corsican (co)</string>
+				<string>Croatian (hr)</string>
+				<string>Czech (cs)</string>
+				<string>Danish (da)</string>
+				<string>Dutch (nl)</string>
+				<string>English (en)</string>
+				<string>Esperanto (eo)</string>
+				<string>Estonian (et)</string>
+				<string>Finnish (fi)</string>
+				<string>French (fr)</string>
+				<string>Frisian (fy)</string>
+				<string>Galician (gl)</string>
+				<string>Georgian (ka)</string>
+				<string>German (de)</string>
+				<string>Greek (el)</string>
+				<string>Gujarati (gu)</string>
+				<string>Haitian Creole (ht)</string>
+				<string>Hausa (ha)</string>
+				<string>Hawaiian (haw)</string>
+				<string>Hebrew (he)</string>
+				<string>Hindi (hi)</string>
+				<string>Hmong (hmn)</string>
+				<string>Hungarian (hu)</string>
+				<string>Icelandic (is)</string>
+				<string>Igbo (ig)</string>
+				<string>Indonesian (id)</string>
+				<string>Irish (ga)</string>
+				<string>Italian (it)</string>
+				<string>Japanese (ja)</string>
+				<string>Javanese (jv)</string>
+				<string>Kannada (kn)</string>
+				<string>Kazakh (kk)</string>
+				<string>Khmer (km)</string>
+				<string>Korean (ko)</string>
+				<string>Kurdish (ku)</string>
+				<string>Kyrgyz (ky)</string>
+				<string>Lao (lo)</string>
+				<string>Latin (la)</string>
+				<string>Latvian (lv)</string>
+				<string>Lithuanian (lt)</string>
+				<string>Luxembourgish (lb)</string>
+				<string>Macedonian (mk)</string>
+				<string>Malagasy (mg)</string>
+				<string>Malay (ms)</string>
+				<string>Malayalam (ml)</string>
+				<string>Maltese (mt)</string>
+				<string>Maori (mi)</string>
+				<string>Marathi (mr)</string>
+				<string>Mongolian (mn)</string>
+				<string>Myanmar - Burmese (my)</string>
+				<string>Nepali (ne)</string>
+				<string>Norwegian (no)</string>
+				<string>Nyanja - Chichewa (ny)</string>
+				<string>Pashto (ps)</string>
+				<string>Persian (fa)</string>
+				<string>Polish (pl)</string>
+				<string>Portuguese - Portugal, Brazil (pt)</string>
+				<string>Punjabi (pa)</string>
+				<string>Romanian (ro)</string>
+				<string>Russian (ru)</string>
+				<string>Samoan (sm)</string>
+				<string>Scots Gaelic (gd)</string>
+				<string>Serbian (sr)</string>
+				<string>Sesotho (st)</string>
+				<string>Shona (sn)</string>
+				<string>Sindhi (sd)</string>
+				<string>Sinhala - Sinhalese (si)</string>
+				<string>Slovak (sk)</string>
+				<string>Slovenian (sl)</string>
+				<string>Somali (so)</string>
+				<string>Spanish (es)</string>
+				<string>Sundanese (su)</string>
+				<string>Swahili (sw)</string>
+				<string>Swedish (sv)</string>
+				<string>Tagalog - Filipino (tl)</string>
+				<string>Tajik (tg)</string>
+				<string>Tamil (ta)</string>
+				<string>Telugu (te)</string>
+				<string>Thai (th)</string>
+				<string>Turkish (tr)</string>
+				<string>Ukrainian (uk)</string>
+				<string>Urdu (ur)</string>
+				<string>Uzbek (uz)</string>
+				<string>Vietnamese (vi)</string>
+				<string>Welsh (cy)</string>
+				<string>Xhosa (xh)</string>
+				<string>Yiddish (yi)</string>
+				<string>Yoruba (yo)</string>
+				<string>Zulu (zu)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>tlc</string>
+			<key>Option Label</key>
+			<dict>
+				<key>en</key>
+				<string>Command (⌘) + Click:</string>
 			</dict>
 			<key>Option Type</key>
 			<string>multiple</string>
