@@ -59,11 +59,16 @@ if ($input = getenv('POPCLIP_TEXT')) {
     die('');
   }
   
-  echo array_reduce($json[0], function($carry, $item) {
+  $result = array_reduce($json[0], function($carry, $item) {
     if (isset($item[0])) {
       $carry .= $item[0];
       return $carry;
     }
-  }, '');
+   }, '');
+   $result = str_replace('"', '\\"', $result);
+   $script = 'display dialog "%s" buttons {"OK"} default button 1 with title "Google Translate"';
+   $script = sprintf($script, $result);
+   $cmd = "/usr/bin/osascript -e '$script'";
+   exec($cmd);
 }
 ?>

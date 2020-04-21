@@ -5,8 +5,6 @@
 	<key>Actions</key>
 	<array>
 		<dict>
-			<key>After</key>
-			<string>show-result</string>
 			<key>Image File</key>
 			<string>google-translate.png</string>
 			<key>Script Interpreter</key>
@@ -268,5 +266,7 @@
 		<key>en</key>
 		<string>Google Translate</string>
 	</dict>
+	<key>Long Running</key>
+	<false/>
 </dict>
 </plist>
