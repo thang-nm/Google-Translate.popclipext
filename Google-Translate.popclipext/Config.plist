@@ -139,6 +139,8 @@
 				<string>Yoruba (yo)</string>
 				<string>Zulu (zu)</string>
 			</array>
+			<key>Option Default Value</key>
+			<string>Vietnamese (vi)</string>
 		</dict>
 		<dict>
 			<key>Option Identifier</key>
@@ -257,6 +259,8 @@
 				<string>Yoruba (yo)</string>
 				<string>Zulu (zu)</string>
 			</array>
+			<key>Option Default Value</key>
+			<string>English (en)</string>
 		</dict>
 	</array>
 	<key>Extension Description</key>
