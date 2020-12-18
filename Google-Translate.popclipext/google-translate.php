@@ -58,12 +58,13 @@ if ($input = getenv('POPCLIP_TEXT')) {
   if (!isset($json[0])) {
     die('');
   }
-  
-  echo array_reduce($json[0], function($carry, $item) {
+  $carry ='';
+  foreach($json[0] as $item){
     if (isset($item[0])) {
+      $item[0] = str_replace(["\r\n", "\r", "\n"],'',$item[0]);
       $carry .= $item[0];
-      return $carry;
     }
-  }, '');
+  }
+  echo $carry;
 }
 ?>
